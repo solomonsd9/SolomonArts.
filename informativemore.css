@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-family: Arial;
+    font-size: 2.5rem;
+    color: var(--black);;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+    gap: 0.5rem;
+}
+.box-container .box{
+        padding:2rem 2rem;
+        background: white;
+        outline: var(--outline);
+        outline-offset: -1rem;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        border-radius: 1rem;
+    }
+ 
+img{
+    
+    transition: 100ms;}
+img:hover{
+    scale: 1.3;}
